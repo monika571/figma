@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+    cursor: pointer;
+}
+body {
+    background-color: #000;
+}
+.card {
+    height: 644px;
+    width: 644px;
+    margin-top: 30px;
+    margin-left: 30%;
+}
+.card1 {
+    border: 2px solid#ff66ff;
+    height: 80px;width: 80px;
+    float: left;
+    background-color: #fff;
+}
+.card2{
+    border: 2px solid #ff66ff;
+    height: 80px;width: 80px;
+    float: left;
+    background-color: #000  ;
+}
+.card1:hover {
+    background-color: red;
+    transition: .2s;
+}
+.card2:hover {
+    background-color:blue ;
+    transition: .2s;
+}
